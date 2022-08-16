@@ -23,8 +23,8 @@ export async function handler(event: any) {
         providerUrl: event.secrets.polygonMumbaiProviderURL,
       },
       {
-        chainId: 69,
-        providerUrl: event.secrets.optimismKovanProviderURL,
+        chainId: 420,
+        providerUrl: event.secrets.optimismGoerliProviderURL,
       },
     ],
   };
